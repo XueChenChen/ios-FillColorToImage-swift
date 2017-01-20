@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BF9AD10D1E31B70100900571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD10C1E31B70100900571 /* AppDelegate.swift */; };
-		BF9AD10F1E31B70100900571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD10E1E31B70100900571 /* ViewController.swift */; };
-		BF9AD1121E31B70100900571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD1101E31B70100900571 /* Main.storyboard */; };
 		BF9AD1141E31B70100900571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD1131E31B70100900571 /* Assets.xcassets */; };
 		BF9AD1171E31B70100900571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD1151E31B70100900571 /* LaunchScreen.storyboard */; };
+		BF9AD11F1E31B86A00900571 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD11E1E31B86A00900571 /* ColorCell.swift */; };
+		BF9AD1231E31B87E00900571 /* gouhetuzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD1201E31B87E00900571 /* gouhetuzi.jpg */; };
+		BF9AD1241E31B87E00900571 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD1211E31B87E00900571 /* ImageData.swift */; };
+		BF9AD1251E31B87E00900571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD1221E31B87E00900571 /* ViewController.swift */; };
+		BF9AD1281E31B88900900571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD1261E31B88900900571 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF9AD1091E31B70000900571 /* FillColorToImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillColorToImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9AD10C1E31B70100900571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF9AD10E1E31B70100900571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF9AD1111E31B70100900571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF9AD1131E31B70100900571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9AD1161E31B70100900571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9AD1181E31B70100900571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9AD11E1E31B86A00900571 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		BF9AD1201E31B87E00900571 /* gouhetuzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gouhetuzi.jpg; sourceTree = "<group>"; };
+		BF9AD1211E31B87E00900571 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		BF9AD1221E31B87E00900571 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF9AD1271E31B88900900571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				BF9AD10C1E31B70100900571 /* AppDelegate.swift */,
-				BF9AD10E1E31B70100900571 /* ViewController.swift */,
-				BF9AD1101E31B70100900571 /* Main.storyboard */,
+				BF9AD1201E31B87E00900571 /* gouhetuzi.jpg */,
+				BF9AD1211E31B87E00900571 /* ImageData.swift */,
+				BF9AD11E1E31B86A00900571 /* ColorCell.swift */,
+				BF9AD1221E31B87E00900571 /* ViewController.swift */,
 				BF9AD1131E31B70100900571 /* Assets.xcassets */,
 				BF9AD1151E31B70100900571 /* LaunchScreen.storyboard */,
+				BF9AD1261E31B88900900571 /* Main.storyboard */,
 				BF9AD1181E31B70100900571 /* Info.plist */,
 			);
 			path = FillColorToImage;
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					BF9AD1081E31B70000900571 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LTRLB77UV6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +135,8 @@
 			files = (
 				BF9AD1171E31B70100900571 /* LaunchScreen.storyboard in Resources */,
 				BF9AD1141E31B70100900571 /* Assets.xcassets in Resources */,
-				BF9AD1121E31B70100900571 /* Main.storyboard in Resources */,
+				BF9AD1231E31B87E00900571 /* gouhetuzi.jpg in Resources */,
+				BF9AD1281E31B88900900571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +147,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9AD10F1E31B70100900571 /* ViewController.swift in Sources */,
 				BF9AD10D1E31B70100900571 /* AppDelegate.swift in Sources */,
+				BF9AD11F1E31B86A00900571 /* ColorCell.swift in Sources */,
+				BF9AD1251E31B87E00900571 /* ViewController.swift in Sources */,
+				BF9AD1241E31B87E00900571 /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF9AD1101E31B70100900571 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF9AD1111E31B70100900571 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF9AD1151E31B70100900571 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BF9AD1161E31B70100900571 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9AD1261E31B88900900571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9AD1271E31B88900900571 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTRLB77UV6;
 				INFOPLIST_FILE = FillColorToImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.FillColorToImage;
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTRLB77UV6;
 				INFOPLIST_FILE = FillColorToImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.FillColorToImage;
@@ -299,6 +314,7 @@
 				BF9AD11D1E31B70100900571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
